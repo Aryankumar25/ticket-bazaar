@@ -3,80 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venue 2 - Ticket Darbar</title>
+    <title>Venue 1 - Ticket Darbar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo-title">
-            <img src="images/logo.png" alt="Ticket Darbar Logo" class="logo">
+            <img src="images/WhatsApp Image 2024-04-21 at 19.41.43 (1).jpeg" alt="Ticket Darbar Logo" class="logo">
             <h1>Ticket Darbar</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-        <div class="contact-info-box">
-            <span id="phone-number" onclick="copyToClipboard('(123) 456-7890')">
-                Call us: (123) 456-7890
-            </span>
-            <span id="email" onclick="copyToClipboard('info@ticketdarbar.com')">
-                Email: info@ticketdarbar.com
-            </span>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info-box">
+                <span id="phone-number" onclick="copyToClipboard('(123) 456-7890')">
+                    Call us: (123) 456-7890
+                </span>
+                <span id="email" onclick="copyToClipboard('info@ticketdarbar.com')">
+                    Email: info@ticketdarbar.com
+                </span>
+            </div>
         </div>
     </header>
 
     <!-- Venue Details Section -->
     <section class="venue-details">
-        <h2>Venue 2 - City Center</h2>
-        <img src="images/venue2.jpg" alt="Venue 1" class="venue-image">
+        <h2>Venue 1 - City Center</h2>
+        <img src="images/th (1).jpg" alt="Venue 1" class="venue-image">
         <p>Location: City Center</p>
         <p>Capacity: 500 seats</p>
         <p>Facilities: Dolby Atmos, 4K Projection, Comfortable Seating</p>
     </section>
 
     <!-- Currently Running Movies Section -->
-    <section class="currently-running-movies">
-        <h2>Currently Running Movies</h2>
-        <div class="movie-list">
-            <div class="movie-item">
-                <img src="images/movie1.jpg" alt="Movie 1">
+<section class="currently-running-movies">
+    <h2>Currently Running Movies</h2>
+    <div class="movie-list">
+        <div class="movie-item">
+            <a href="movie.html">
+                <img src="images/th (2).jpg" alt="Movie 1">
                 <h3>Movie Title 1</h3>
                 <p>Rating: ★★★★☆ (PG-13)</p>
                 <a href="https://www.youtube.com/watch?v=example1" target="_blank" class="trailer-button">Watch Trailer</a>
-            </div>
-            <div class="movie-item">
-                <img src="images/movie2.jpg" alt="Movie 2">
+            </a>
+        </div>
+        <div class="movie-item">
+            <a href="movie.html">
+                <img src="images/th (3).jpg" alt="Movie 2">
                 <h3>Movie Title 2</h3>
                 <p>Rating: ★★★☆☆ (PG)</p>
                 <a href="https://www.youtube.com/watch?v=example2" target="_blank" class="trailer-button">Watch Trailer</a>
-            </div>
-            <div class="movie-item">
-                <img src="images/movie3.jpg" alt="Movie 3">
+            </a>
+        </div>
+        <div class="movie-item">
+            <a href="movie.html">
+                <img src="images/th (1).jpg" alt="Movie 3">
                 <h3>Movie Title 3</h3>
                 <p>Rating: ★★★★★ (R)</p>
                 <a href="https://www.youtube.com/watch?v=example3" target="_blank" class="trailer-button">Watch Trailer</a>
-            </div>
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Footer Section -->
-    <footer id="contact">
-        <div class="footer-content">
-            <img src="images/logo.png" alt="Ticket Darbar Logo" class="footer-logo">
-            <p>&copy; 2024 Ticket Darbar. All rights reserved.</p>
-            <div class="social-media">
-                <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
-                <a href="#"><img src="images/instagram.png" alt="Instagram" class="social-icon"></a>
-            </div>
-            <form class="newsletter-signup">
-                <input type="email" placeholder="Subscribe to our newsletter" required>
-                <button type="submit">Subscribe</button>
-            </form>
+ <!-- Footer Section -->
+<footer id="contact">
+    <div class="footer-content">
+        <img src="images/logo.png" alt="Ticket Darbar Logo" class="footer-logo">
+        <p>&copy; 2024 Ticket Darbar. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter" class="social-icon"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube" class="social-icon"></a>
         </div>
-    </footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>

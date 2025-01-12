@@ -1,9 +1,14 @@
 /* Header Styles */
 /* Header Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Header Styles */
 header {
-    background: #FFD700; /* Changed background color */
-    color: rgb(0, 0, 0);
-    padding: 20px;
+    background: #000000;
+    color: white;
+    padding: 10px; /* Reduced padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,16 +18,16 @@ header {
 header .logo-title {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px; /* Reduced gap */
 }
 
 header .logo {
-    height: 70px;
+    height: 80px; /* Reduced logo size */
     width: auto;
 }
 
 header h1 {
-    font-size: 28px;
+    font-size: 30px; /* Reduced font size */
     font-weight: bold;
     margin: 0;
 }
@@ -30,7 +35,7 @@ header h1 {
 header .header-right {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 header nav ul {
@@ -38,14 +43,14 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 10px; /* Reduced gap */
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    padding: 8px 12px;
+    font-size: 14px; /* Reduced font size */
+    padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -57,22 +62,21 @@ header nav ul li a:hover {
 .contact-info-box {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px; /* Reduced gap */
 }
 
 .contact-info-box span {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px; /* Reduced gap */
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-size: 18px; /* Increased font size */
 }
 
 .contact-info-box span:hover {
-    background-color: rgba(233, 14, 14, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .contact-info-box span::before {
@@ -95,17 +99,17 @@ header nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #4B0082;
 }
 
 .hero h1 {
     font-size: 36px;
-    color: #333;
+    color: #ffffff;
 }
 
 .hero h5 {
     font-size: 18px;
-    color: #555;
+    color: #ffffff;
 }
 
 /* Animated Movie Section */
@@ -221,25 +225,121 @@ header nav ul li a:hover {
     font-size: 16px;
     color: #555;
 }
-
+.venue-details .venue-image {
+    width: 12%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 /* Footer Styles */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 footer p {
     margin: 0;
     font-size: 14px;
+    font-weight: bold;
 }
 
 footer a {
     color: #ffcc00;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: #ffffff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-links {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+/* Seating Arrangement Section */
+.seating-arrangement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.seating-arrangement-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.seating-arrangement-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.seating-arrangement-info {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.seating-arrangement-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.seating-arrangement-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
 }
